@@ -1,0 +1,32 @@
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b0f19;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #06b6d4;
+}
+
+/* Transiciones suaves para elementos interactivos */
+.figura-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.figura-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Selección de texto en bloques editables */
+[contenteditable="true"]:focus {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.25);
+}
